@@ -3,6 +3,7 @@ import React from 'react';
 import './global.css';
 import './App.css';
 import './Sidebar.css';
+import './Main.css';
 
 function App() {
 
@@ -37,7 +38,52 @@ function App() {
         </form>
       </aside>
       <main>
-      
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/8672039?s=460&v=4" alt="Mogan Xumerle"></img>
+              <div className="user-info">
+                <strong>Mogan Xumerle</strong>
+                <span>React</span>
+              </div>
+            </header>
+            <p>Desenvolvedor no Luizalabs</p>
+            <a href="https://github.com/moganrz">Acessar perfil no Github</a>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/8672039?s=460&v=4" alt="Mogan Xumerle"></img>
+              <div className="user-info">
+                <strong>Mogan Xumerle</strong>
+                <span>React</span>
+              </div>
+            </header>
+            <p>Desenvolvedor no Luizalabs</p>
+            <a href="https://github.com/moganrz">Acessar perfil no Github</a>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/8672039?s=460&v=4" alt="Mogan Xumerle"></img>
+              <div className="user-info">
+                <strong>Mogan Xumerle</strong>
+                <span>React</span>
+              </div>
+            </header>
+            <p>Desenvolvedor no Luizalabs</p>
+            <a href="https://github.com/moganrz">Acessar perfil no Github</a>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars0.githubusercontent.com/u/8672039?s=460&v=4" alt="Mogan Xumerle"></img>
+              <div className="user-info">
+                <strong>Mogan Xumerle</strong>
+                <span>React</span>
+              </div>
+            </header>
+            <p>Desenvolvedor no Luizalabs</p>
+            <a href="https://github.com/moganrz">Acessar perfil no Github</a>
+          </li>                              
+        </ul>
       </main>
     </div>
   );
